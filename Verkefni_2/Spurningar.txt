@@ -1,0 +1,35 @@
+1. Hver er munurinn á public, protected, og private þegar kemur að property og
+methods?
+
+	1.Public
+		- Every one can use this class.
+	2.Protected
+		- Only let's it's children inside and the class itself.
+	3.Private 
+		- No one can use this class unless it's the class itself.
+
+2. Hvað er Inheritance? komdu með dæmi.
+
+
+	- Class can inherit attributes from the parent class.
+
+	- Class Parent { 
+		protected $numb_child = 0; 
+	  }
+	- Class Child extends Parent { 
+		public function __construct() { 
+			$this->numb_child++; 
+		}
+	  }
+
+3. Hvað er autoloading?
+	- Autoloading is a way to simplify code and more class more easy to use, it dose this by
+	  using	a function that auto request all the php files in a folder and adds the to one file
+	  where the file is read and makes to so the programer can use classes from more the one file.
+
+4. Af hverju ættir þú að nota OOP í PHP? Hvenær væri það hugsanlega heppilegt og
+hvenær ekki? Rökstuddu svar þitt!
+
+	- Það fer eftir allveg það forritarinn er að gera og hvernig verkefni það er, ef verkefni er þannig
+	  að það er betra að nota marga classa í stað margra skjala og en forritarinn kann að nota class og 
+	  OOP snið þá væri miklu betra að nota OOP.
