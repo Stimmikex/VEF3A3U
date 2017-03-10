@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+	<header>Pizza Pöntun</header>
+  	<Crust>orginal</Crust>
+  	<Toppings>cheese, pepperoni, garlic</Toppings>
+  	<status>cooking</status>
+  	<Customer>
+  		<name>Jon</name>
+  		<phone>911</phone>
+  	</Customer>
+</note>
